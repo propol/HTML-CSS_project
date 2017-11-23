@@ -1,0 +1,434 @@
+header{
+	background-color: #000;
+	position: fixed;
+	width: 100%;
+	z-index: 100;
+	height: 12%;
+	top: 0;
+	left: 0;
+}
+
+ul{
+	text-align: center;
+	margin: 3% auto;
+
+}
+
+li{
+	color: #fff;
+	text-transform: uppercase;
+	font-family: Helvetica, sans-serif;
+	display: inline;
+	font-size: 1.5em;
+	/*padding: 0 2% 0 2%;*/
+	padding: 15px;
+}
+
+a:link, a:visited{
+	color: white;
+	text-decoration: none;
+	cursor: pointer;
+}
+
+a:hover{
+	color: red;
+}
+
+#logo{
+	float: left;
+	margin-left: 40px;
+}
+
+.navigation{
+	float: left;
+	/*margin-right: 40px;*/
+}
+
+footer{
+  position: absolute;
+  height:5%;
+  bottom: 0;
+  width:100%;
+  color: white;
+  /*border-top:2px solid white;*/
+  text-align: center;
+}
+
+.footprobl{
+	position: relative;
+	top: 200px;
+}
+
+.footAccomp{
+	position:relative;
+	bottom:1%;
+	width:100%;
+	height:5px;
+	text-align:center;
+	color:white;
+	padding-top:15px;
+}
+
+/* About Home page */
+
+.indexBody{
+	background-image: url('pictures/Richard.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	max-width: 100%;
+	overflow-x: hidden;
+	background-attachment: fixed;
+}
+
+.indexBody h1{
+	font-family: Helvetica, sans-serif;
+	font-weight: 500;
+	visibility: visible;
+	color: #fff;
+	z-index: 100;
+	position: relative;
+	top: 450px;
+	left: 50px;
+}
+
+.quote{
+	font-style: italic;
+}
+
+
+/* About Biography page */
+
+.BioBody{
+	background-image: url('pictures/seats.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	max-width: 100%;
+	overflow-x: hidden;
+}
+
+.BioBody h1{
+	text-align: center;
+	position: relative;
+	top: 200px;
+	color: #fff;
+	font-family: Georgia;
+	margin-top: 150px;
+}
+
+.BioBody p{
+	font-family: Helvetica, sans-serif;
+	color: #fff;
+	position: relative;
+	font-size: 20px;
+	top: 200px;
+	line-height: 1.4;
+	/*center the paragraph*/
+	margin-right: auto;
+	margin-left: auto;
+	width: 50em;
+}
+
+.personallifeClass p{
+	margin-bottom: 100px;
+}
+
+/* Dropdown Biography menu */
+
+.drop div{
+	display: none;
+	position: absolute;
+	z-index: 1;
+	background-color: #000;
+	overflow: auto;
+	margin-left: 4.5em;
+
+}
+	
+.drop div a{
+	float: none;
+	padding: 15px 16px;
+	display: block;
+	text-align: left;
+	font-size: 17px;
+}
+
+.drop:hover div{
+	display: block;
+}
+
+/*About Mutlimedia page */
+
+.multimediaBody{
+	background-image: url('pictures/curtains.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	max-width: 100%;
+	overflow-x: hidden;
+}
+
+.vid{
+
+	width: 45em;
+	height: 30em;
+	position: relative;
+  	top: 400px;
+  	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.vidClass h1{
+	text-align: center;
+	position: relative;
+	top: 200px;
+	color: #fff;
+	font-family: Georgia;
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: 50px;
+	text-decoration: underline;
+}
+
+
+.gallery h1{
+	text-align: center;
+	position: relative;
+	top: 200px;
+	color: #fff;
+	font-family: Georgia;
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: 50px;
+	text-decoration: underline;
+	margin-top: 200px;
+}
+
+.slider-holder
+        {
+            width: 800px;
+            height: 400px;
+            background-color: yellow;
+            margin-left: auto;
+            margin-right: auto;
+            margin-top: 0px;
+            text-align: center;
+            overflow: hidden;
+            position: relative;
+            top: 200px;
+            margin-bottom: 100px;
+        }
+        
+        .image-holder
+        {
+            width: 2400px;
+            background-color: red;
+            height: 400px;
+            clear: both;
+            position: relative;
+            
+            
+            transition: left 2s;
+        }
+        
+        .slider-image
+        {
+            float: left;
+            margin: 0px;
+            padding: 0px;
+            position: relative;
+        }
+        
+        #slider-image-1:target ~ .image-holder
+        {
+            left: 0px;
+        }
+        
+        #slider-image-2:target ~ .image-holder
+        {
+            left: -800px;
+        }
+        
+        #slider-image-3:target ~ .image-holder
+        {
+            left: -1600px;
+        }
+        
+        .button-holder
+        {
+            position: relative;
+            top: -20px;
+        }
+        
+        .slider-change
+        {
+            display: inline-block;
+            height: 10px;
+            width: 10px;
+            border-radius: 5px;
+            background-color: #fff;
+        }
+
+        /*Not mine */
+
+.AccBody{	
+	background: url('pictures/stage1.jpg') no-repeat fixed ;
+}
+
+.contactBody{
+	background: url('pictures/contactBackg.jpg') no-repeat fixed 100% 100%;
+}
+
+#AMAimg{
+	z-index: 80;
+	padding-top: 6em;
+}
+
+#FoolUsGIF{
+	z-index: 80;
+	position: relative;
+	padding-bottom:15em;
+}
+
+figure{
+	color: white;
+	font-style: italic;
+}
+
+#accompH1{
+	font-family: Helvetica, sans-serif;
+	font-weight: 500;
+	visibility: visible;
+	color: #fff;
+	z-index: 50;
+	position: relative;
+	top: 3em;
+	left: 18em;
+}
+
+#contactH1{
+	font-family: Helvetica, sans-serif;
+	color: red;
+	z-index: 50;
+	position: relative;
+	top: 7.5em;
+	left: 6em;
+}
+
+#contactH2{
+	font-family: Helvetica, sans-serif;
+	color: #B22222;
+	z-index: 50;
+	position: relative;
+	top: 10em;
+	left: 8em;
+}
+
+#conP{
+	font-family: Helvetica, sans-serif;
+	color: #CD5C5C;
+	z-index: 50;
+	position: relative;
+	top: 15em;
+	left: 12em;
+}
+
+#ContactIMG{
+	z-index: 80;
+	position: relative;
+	left : 60em;
+}
+
+#AMA{
+	z-index: 80;
+	font-family: Helvetica, sans-serif;
+	color: #FFF8DC;
+	position: relative;
+	left: 23em; 
+	bottom: 15em;
+	display: list-item;
+	list-style-type: disc; 
+	list-style-position: inside;
+	font-weight: bold;
+}
+
+#PaT{
+	z-index: 80;
+	font-family: Helvetica, sans-serif;
+	color: #FFF8DC;
+	position: relative;
+	left: 35em;
+	bottom: 32em;
+	display: list-item;
+	list-style-type: disc; 
+	list-style-position: inside;
+	font-weight: bold;
+}
+
+#FoolUsFigcap{
+	position: relative;
+	bottom: 15em;
+}
+
+#dealt{
+	z-index: 80;
+	font-family: Helvetica, sans-serif;
+	color: #FFF8DC;
+	position: relative;
+	left: 15em;
+	bottom: 28em;
+	display: list-item;
+	list-style-type: disc; 
+	list-style-position: inside;
+	font-weight: bold;
+}
+
+#dealtIMG{
+	position: relative;
+	bottom: 14em;
+}
+
+#conLogos{
+	position: relative;
+	/*right: 34em;*/
+	top: 7em;
+	margin-right: auto;
+	margin-right: auto;
+}
+
+/* Newsfeed */
+
+.NewsBody{
+	background-image: url('pictures/news.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	max-width: 100%;
+	overflow-x: hidden;
+}
+
+.NewsBody h1{
+	text-align: center;
+	position: relative;
+	top: 60px;
+	color: #000;
+	font-family: Georgia;
+	margin-top: 150px;
+}
+
+div.newsArticles{
+	margin:5% 1% 1% 1%;
+	border: 1px solid black;
+}
+
+div.newsArticles p{
+	font-weight: bold;
+	font-family: Helvetica, sans-serif;
+}
+
+article{
+	padding:5px 16px;
+	overflow:hidden;
+	border-bottom:1px solid black;
+	
+}
